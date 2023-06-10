@@ -84,7 +84,7 @@ img {
 /* ========================== */
 
 @font-face {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   src: url("/fonts/Onest-Bold.woff") format("woff"),
     url("/fonts/Onest-Bold.ttf") format("truetype");
   font-weight: 700;
@@ -92,7 +92,7 @@ img {
 }
 
 @font-face {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   src: url("/fonts/Onest-Medium.woff") format("woff"),
     url("/fonts/Onest-Medium.ttf") format("truetype");
   font-weight: 500;
@@ -100,7 +100,7 @@ img {
 }
 
 @font-face {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   src: url("/fonts/Onest-Regular.woff") format("woff"),
     url("/fonts/Onest-Regular.ttf") format("truetype");
   font-weight: 400;
@@ -108,10 +108,22 @@ img {
 }
 
 * {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
 }
 
 /* аналогично для остальных шрифтов */
+
+body {
+  background-color: #f3f6f8 !important;
+}
+.gradient {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffff 48.99%,
+    rgba(255, 255, 255, 0) 67.78%
+  );
+}
 
 .animated-icon1,
 .animated-icon2,
@@ -290,7 +302,7 @@ img {
   border: 0 !important;
   box-shadow: none !important;
   background: #00aaff;
-  padding: 10px 8px;
+  padding: 10px 8px 12px 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -303,7 +315,7 @@ header {
 }
 
 .navbar li a {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -325,7 +337,7 @@ header {
 }
 
 .header-phone__phone {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -343,7 +355,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -393,7 +405,7 @@ header {
   width: 139px;
   height: 26px;
   margin-bottom: 4px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -406,7 +418,7 @@ header {
 }
 
 .section-about h2 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -416,7 +428,7 @@ header {
 }
 
 .section-about h1 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -426,7 +438,7 @@ header {
 }
 
 .section-about h3 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -435,7 +447,7 @@ header {
   margin-bottom: 8px;
 }
 .section-about p {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -444,7 +456,7 @@ header {
   margin-bottom: 45px;
 }
 .section-about h4 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -458,7 +470,7 @@ header {
   height: 66px;
   background: #00aaff;
   border-radius: 15px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -472,7 +484,7 @@ header {
 }
 
 .section-about__pdf span {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -555,7 +567,7 @@ header {
 }
 
 .section-sale__today {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -564,7 +576,7 @@ header {
   margin-bottom: 5px;
 }
 .section-sale__sale {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -583,7 +595,7 @@ header {
   margin-right: 81px;
 }
 .section-sale__price {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -593,7 +605,7 @@ header {
 
 .section-sale__price-sale {
   text-align: center;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -602,7 +614,7 @@ header {
 }
 .section-sale__end {
   text-align: center;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -611,7 +623,7 @@ header {
   margin-bottom: 23px;
 }
 .section-sale__time {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -704,7 +716,7 @@ header {
 }
 
 .section-whom h2 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -716,7 +728,7 @@ header {
 }
 
 .section-whom p {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -727,7 +739,7 @@ header {
 }
 
 .section-whom h3 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -744,13 +756,14 @@ header {
 
 .section-whom__item {
   display: flex;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .section-whom__item-image {
@@ -784,7 +797,7 @@ header {
 }
 
 .section-earn__what h2 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -803,7 +816,7 @@ header {
 }
 
 .section-earn__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -821,7 +834,7 @@ header {
   margin-right: 20px;
 }
 .section-earn__card-title {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -830,7 +843,7 @@ header {
   margin-bottom: 14px;
 }
 .section-earn__card-price {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -839,7 +852,7 @@ header {
   margin-bottom: 21px;
 }
 .section-earn__card-experience {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -848,7 +861,7 @@ header {
   margin-bottom: 10px;
 }
 .section-earn__card-employment {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -869,7 +882,7 @@ header {
   border-radius: 5px;
   width: 320px;
   height: 52px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -987,10 +1000,11 @@ header {
 }
 .section-learn-row {
   row-gap: 15px;
+  column-gap: 15px;
 }
 
 .section-learn h2 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -1002,15 +1016,19 @@ header {
   background: #ffffff;
   border-radius: 20px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+}
+
+.section-learn__card {
+  padding: 17px 0px 17px 23px;
 }
 
 .section-learn__card img {
   margin-right: 24px;
 }
 .section-learn__card-text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1056,7 +1074,7 @@ header {
 }
 
 .section-program h2 {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -1081,7 +1099,7 @@ header {
 }
 
 .section-program__card-one {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1091,6 +1109,12 @@ header {
 }
 
 .section-program__card-title {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+
   color: #000041;
 }
 
@@ -1099,7 +1123,7 @@ header {
 }
 
 .section-program__card li {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1108,7 +1132,7 @@ header {
   color: #363636;
 }
 .section-program__card-header {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -1157,7 +1181,7 @@ header {
   margin-bottom: 30px;
 }
 .section-certificate__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1186,7 +1210,7 @@ header {
 
 .section-case__text {
   margin-bottom: 20px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1202,7 +1226,7 @@ header {
   margin-bottom: 20px;
 }
 .case-man__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1220,7 +1244,7 @@ header {
   margin-bottom: 60px;
 }
 .section-reviews__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -1236,7 +1260,7 @@ header {
 }
 
 .section-reviews__text-reviews {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1257,7 +1281,8 @@ header {
   /* border: 1px solid black; */
   position: relative;
   height: 392px;
-  /* width: 315px; */
+  /* width: 305px !important; */
+  margin-right: 20px;
 }
 
 .section-reviews-row {
@@ -1279,7 +1304,7 @@ header {
 }
 
 .section-reviews__card-name {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1302,7 +1327,7 @@ header {
 
 .section-reviews__card-text {
   width: 235px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1322,7 +1347,7 @@ header {
 }
 
 .section-video_reviews__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -1344,7 +1369,7 @@ header {
 }
 
 .section-answers__header {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -1357,6 +1382,7 @@ header {
 
 .accordion-item {
   /* border-radius: 15px !important; */
+  background: none;
   margin-bottom: 15px;
 }
 
@@ -1370,7 +1396,7 @@ header {
 }
 
 .accordion-button {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1381,7 +1407,7 @@ header {
 }
 
 .accordion-body {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1420,7 +1446,7 @@ header {
 }
 
 .section-connection__header {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -1431,7 +1457,7 @@ header {
   margin-bottom: 15px;
 }
 .section-connection__text {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1447,7 +1473,7 @@ form {
   width: 488px;
 }
 .section-connection form input {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1526,7 +1552,7 @@ footer {
 
 .footer-link {
   margin-right: 30px;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1540,7 +1566,7 @@ footer {
   margin-bottom: 30px;
 }
 .politics-footer {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1555,7 +1581,7 @@ footer {
 .footer-link_icon {
   display: flex;
   align-items: center;
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1624,7 +1650,7 @@ footer {
 }
 
 .policy {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1737,6 +1763,9 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  .section-reviews__card {
+    /* width: 320px !important; */
+  }
   .section-sale-second {
     display: none;
   }
@@ -1783,5 +1812,59 @@ footer {
   }
   .footer_icons-list {
     display: none !important;
+  }
+  .about-image {
+    margin-bottom: 16px;
+  }
+  .section-whom__item {
+    margin-bottom: 5px;
+  }
+  .section-learn__card {
+    padding: 17px 14px 17px 23px;
+  }
+  .section-learn-row {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 27px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-learn .col-lg-4 {
+    flex: 0 0 auto;
+    width: 31.633333%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-learn .col-lg-4 {
+    flex: 0 0 auto;
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* .navbar-brand {
+    display: none;
+  } */
+  header {
+    margin-bottom: 30px;
+  }
+  .navigation {
+    top: 0;
+    position: static;
+    z-index: 10;
+  }
+  .header-phone {
+    margin-bottom: 20px;
   }
 }
