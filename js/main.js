@@ -24,8 +24,8 @@ const startScroll = window.pageYOffset;
 //     }
 //   }
 // });
-if (window.innerWidth < 992) {
-  nav.style.background = "#00aaff";
-  content.style.visibility = "hidden";
-  navigation.style.position = "fixed";
-}
+// if (window.innerWidth < 992) {
+//   nav.style.background = "#00aaff";
+//   content.style.visibility = "hidden";
+//   navigation.style.position = "fixed";
+// }

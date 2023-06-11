@@ -1847,6 +1847,15 @@ footer {
   .navbar-toggler {
     position: fixed;
   } */
+  .navbar-collapse {
+    background: #00aaff;
+  }
+  .navbar-brand {
+    visibility: hidden;
+  }
+  .navigation {
+    position: fixed !important;
+  }
 
   .swiper-video_reviews {
     width: 100%;
