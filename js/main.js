@@ -9,7 +9,7 @@ const navigation = document.querySelector(".navigation");
 //   content.style.display =
 //     content.style.display == "none" ? "inline-block" : "none";
 // });
-const nav = document.querySelector(".navigation");
+const nav = document.querySelector(".navbar-collapse");
 const startScroll = window.pageYOffset;
 window.addEventListener("scroll", () => {
   if (window.innerWidth < 992) {
