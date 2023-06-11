@@ -1109,7 +1109,7 @@ header {
 }
 
 .section-program__card-title {
-  font-family: "Onest";
+  font-family: "Onest", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
