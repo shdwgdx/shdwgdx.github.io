@@ -1191,6 +1191,13 @@ header {
   margin-bottom: 102px;
 }
 .section-certificate__about {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000041;
   margin-bottom: 30px;
 }
 
