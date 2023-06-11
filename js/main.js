@@ -11,16 +11,21 @@ const navigation = document.querySelector(".navigation");
 // });
 const nav = document.querySelector(".navbar-collapse");
 const startScroll = window.pageYOffset;
-window.addEventListener("scroll", () => {
-  if (window.innerWidth < 992) {
-    if (window.pageYOffset > startScroll) {
-      nav.style.background = "#00aaff";
-      content.style.visibility = "hidden";
-      navigation.style.position = "fixed";
-    } else {
-      nav.style.background = "";
-      content.style.visibility = "visible";
-      navigation.style.position = "static";
-    }
-  }
-});
+// window.addEventListener("scroll", () => {
+//   if (window.innerWidth < 992) {
+//     if (window.pageYOffset > startScroll) {
+//       nav.style.background = "#00aaff";
+//       content.style.visibility = "hidden";
+//       navigation.style.position = "fixed";
+//     } else {
+//       nav.style.background = "";
+//       content.style.visibility = "visible";
+//       navigation.style.position = "static";
+//     }
+//   }
+// });
+if (window.innerWidth < 992) {
+  nav.style.background = "#00aaff";
+  content.style.visibility = "hidden";
+  navigation.style.position = "fixed";
+}
