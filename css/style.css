@@ -1838,18 +1838,17 @@ footer {
   font-size: 27px;
 }
 
+@media screen and (min-width: 768px) {
+  .section-learn .col-lg-4 {
+    flex: 0 0 auto;
+    width: 47%;
+  }
+}
 @media screen and (min-width: 992px) {
   .section-learn .col-lg-4 {
     flex: 0 0 auto;
     width: 31.633333%;
   }
-}
-
-@media screen and (min-width: 768px) {
-  /* .section-learn .col-lg-4 {
-    flex: 0 0 auto;
-    width: 47%;
-  } */
 }
 
 @media screen and (max-width: 992px) {
