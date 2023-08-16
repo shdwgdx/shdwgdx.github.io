@@ -488,6 +488,7 @@ header {
 
 @media screen and (max-width: 576px) {
   .header-phone__button-lesson {
+    width:100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1926,9 +1927,7 @@ footer {
 }
 
 @media screen and (max-width: 592px) {
-  header-phone__button {
-width:100% !important;
-  }
+ 
   .about-image {
     display: flex;
     width: 300px;
