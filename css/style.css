@@ -1966,3 +1966,7 @@ footer {
 .modal-backdrop {
   position: static;
 }
+
+button {
+  width:100%}
+
