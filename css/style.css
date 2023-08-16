@@ -1926,6 +1926,9 @@ footer {
 }
 
 @media screen and (max-width: 592px) {
+  header-phone__button {
+width:100% !important;
+  }
   .about-image {
     display: flex;
     width: 300px;
@@ -1967,6 +1970,4 @@ footer {
   position: static;
 }
 
-button {
-  width:100%}
 
